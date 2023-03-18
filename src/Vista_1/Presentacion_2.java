@@ -213,8 +213,8 @@ public class Presentacion_2 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        new Frutas().setVisible(true);
-        this.dispose();
+        Frutas fruta = Frutas.getFrutas();
+        fruta.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

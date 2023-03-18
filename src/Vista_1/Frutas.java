@@ -9,13 +9,25 @@ package Vista_1;
  * @author ADMIN
  */
 public class Frutas extends javax.swing.JFrame {
+    
+    private static Frutas fruta;
 
     /**
      * Creates new form verduras
      */
-    public Frutas() {
+    private Frutas() {
         initComponents();
         this.setLocationRelativeTo(null);
+    }
+    
+    
+    public static Frutas getFrutas(){
+        if(fruta == null)
+        {
+            fruta = new Frutas();
+        }
+        
+        return fruta;
     }
 
     /**
