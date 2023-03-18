@@ -9,13 +9,23 @@ package Vista_1;
  * @author ADMIN
  */
 public class verduras extends javax.swing.JFrame {
+    
+    private static verduras Verduras;
 
     /**
      * Creates new form verduras
      */
-    public verduras() {
+    private verduras() {
         initComponents();
         this.setLocationRelativeTo(null);
+    }
+    
+    public static verduras getVerduras(){
+        if(Verduras == null)
+        {
+            Verduras = new verduras();
+        }
+        return Verduras;
     }
 
     /**
@@ -155,11 +165,7 @@ public class verduras extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new verduras().setVisible(true);
-            }
-        });
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
