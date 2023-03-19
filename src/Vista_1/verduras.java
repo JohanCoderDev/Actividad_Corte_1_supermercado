@@ -70,6 +70,7 @@ public class verduras extends javax.swing.JFrame {
         jPanel4.setLayout(new java.awt.BorderLayout());
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/imagen_2023-03-09_175804308.png"))); // NOI18N
+        jLabel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel4.add(jLabel8, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(jPanel4);
@@ -79,6 +80,7 @@ public class verduras extends javax.swing.JFrame {
         jPanel6.setLayout(new java.awt.BorderLayout());
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/imagen_2023-03-09_182117093.png"))); // NOI18N
+        jLabel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel6.add(jLabel11, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(jPanel6);
@@ -88,6 +90,7 @@ public class verduras extends javax.swing.JFrame {
         jPanel3.setLayout(new java.awt.BorderLayout());
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/imagen_2023-03-09_172813665.png"))); // NOI18N
+        jLabel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel3.add(jLabel5, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(jPanel3);
@@ -97,6 +100,7 @@ public class verduras extends javax.swing.JFrame {
         jPanel7.setLayout(new java.awt.BorderLayout());
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/imagen_2023-03-09_181551661.png"))); // NOI18N
+        jLabel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel7.add(jLabel12, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(jPanel7);
@@ -106,6 +110,7 @@ public class verduras extends javax.swing.JFrame {
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/imagen_2023-03-09_181051700.png"))); // NOI18N
+        jLabel10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel2.add(jLabel10, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(jPanel2);
@@ -115,6 +120,7 @@ public class verduras extends javax.swing.JFrame {
         jPanel8.setLayout(new java.awt.BorderLayout());
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/imagen_2023-03-09_181851372.png"))); // NOI18N
+        jLabel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel8.add(jLabel7, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(jPanel8);
@@ -134,7 +140,8 @@ public class verduras extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
+    Presentacion_2 presentacion2 = Presentacion_2.getPresentacion_2();
+    presentacion2.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
