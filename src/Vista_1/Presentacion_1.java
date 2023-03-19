@@ -54,7 +54,7 @@ public class Presentacion_1 extends javax.swing.JFrame {
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jPanel6.setBackground(new java.awt.Color(242, 242, 218));
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Johan, alias Bombon", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Roboto Black", 0, 14))); // NOI18N
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Johan, alias Tigre", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Roboto Black", 0, 14))); // NOI18N
 
         jLabel10.setFont(new java.awt.Font("Golos Text", 0, 12)); // NOI18N
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/Imagen_de_WhatsApp_2023-03-09_a_las_16.42.08-removebg-preview.png"))); // NOI18N
